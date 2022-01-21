@@ -37,24 +37,49 @@
 
 // echo "After function call: $outvar ";
 
-$numbers = array(1,2,3,4,5);
-foreach($numbers as $i)
+// $numbers = array(1,2,3,4,5);
+// foreach($numbers as $i)
+// {
+//     echo "Value of array: $i  <br/>" ;
+// }
+
+// $salaries = array("Gopal" => 1, "Abhishek" => 2);
+
+// echo "Rank of Gopal is ".$salaries['Abhishek']."<br/>";
+
+
+// $marks = array( 
+//     "First" => array("Phy"=>50, "Math"=>60, "Chem"=>70),
+//     "Second" => array("Phy"=>40, "Math"=>50, "Chem"=>60),
+// );
+
+// echo $marks['Second']['Phy'];
+
+
+// $t = date("H");
+
+// if($t < "20")
+// {
+//     echo "Have a good day : $t";
+// }
+
+
+$favcolor = "red";
+
+switch($favcolor)
 {
-    echo "Value of array: $i  <br/>" ;
+    case "red":
+                echo "Your fav color is red";
+                break;
+    case "blue":
+                echo "Your fav color is blue";
+                break;
+    case "green":
+                echo "Your fav color is green";
+                break;
+    default:
+            echo "Your favorite color is not in options provided";
 }
-
-$salaries = array("Gopal" => 1, "Abhishek" => 2);
-
-echo "Rank of Gopal is ".$salaries['Abhishek']."<br/>";
-
-
-$marks = array( 
-    "First" => array("Phy"=>50, "Math"=>60, "Chem"=>70),
-    "Second" => array("Phy"=>40, "Math"=>50, "Chem"=>60),
-);
-
-echo $marks['First']['Chem'];
-
 
 
 
