@@ -64,23 +64,38 @@
 // }
 
 
-$favcolor = "red";
+// $favcolor = "red";
 
-switch($favcolor)
+// switch($favcolor)
+// {
+//     case "red":
+//                 echo "Your fav color is <b>red</b>";
+//                 break;
+//     case "blue":
+//                 echo "Your fav color is blue";
+//                 break;
+//     case "green":
+//                 echo "Your fav color is green";
+//                 break;
+//     default:
+//             echo "Your favorite color is not in options provided";
+// }
+
+// echo "Loop Started<br/>";   // once
+// for($x = 0 ; $x <= 10 ; $x++ )
+// {
+//     echo "The number is: $x <br/>";  // 10 times
+// }
+// echo "Loop Ended <br/>";  // once
+
+$x=1;
+
+while($x <= 5)
 {
-    case "red":
-                echo "Your fav color is <b>red</b>";
-                break;
-    case "blue":
-                echo "Your fav color is blue";
-                break;
-    case "green":
-                echo "Your fav color is green";
-                break;
-    default:
-            echo "Your favorite color is not in options provided";
-}
+    echo "The number is: $x <br/>";
 
+    $x++;
+}
 
 
 
