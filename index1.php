@@ -48,6 +48,13 @@ $salaries = array("Gopal" => 1, "Abhishek" => 2);
 echo "Rank of Gopal is ".$salaries['Abhishek'];
 
 
+$marks = array( 
+    "First" => array("Phy"=>50, "Math"=>60, "Chem"=>70),
+    "Second" => array("Phy"=>40, "Math"=>50, "Chem"=>60),
+);
+
+echo $marks['First']['Math'];
+
 
 
 
