@@ -45,7 +45,7 @@ foreach($numbers as $i)
 
 $salaries = array("Gopal" => 1, "Abhishek" => 2);
 
-echo "Rank of Gopal is ".$salaries['Abhishek'];
+echo "Rank of Gopal is ".$salaries['Abhishek']."<br/>";
 
 
 $marks = array( 
@@ -53,7 +53,7 @@ $marks = array(
     "Second" => array("Phy"=>40, "Math"=>50, "Chem"=>60),
 );
 
-echo $marks['First']['Math'];
+echo $marks['First']['Chem'];
 
 
 
