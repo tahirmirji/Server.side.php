@@ -105,21 +105,41 @@
 
 // }while($x <= 5);
 
-$colors = array("red","green","blue","yellow","gray");
+// $colors = array("red","green","blue","yellow","gray");
 
 
-echo "<select name='cars' id='cars'>";
+// echo "<select name='colors' id='colors'>";
 
 
-foreach( $colors as $single_Value_Holder)
-{
-    // echo "$single_Value_Holder <br>  ";
-    echo "<option value='$single_Value_Holder'>$single_Value_Holder</option>";
+// foreach( $colors as $single_Value_Holder)
+// {
+//     // echo "$single_Value_Holder <br>  ";
+//     echo "<option value='$single_Value_Holder'>$single_Value_Holder</option>";
     
-    // echo "<font color= $single_Value_Holder > $single_Value_Holder</font><br>";
+//     // echo "<font color= $single_Value_Holder > $single_Value_Holder</font><br>";
+// }
+
+// echo "</select>";
+
+
+//function definition
+function familyName($fname,$lname)
+{
+
+    echo "Hey Hi, $fname $lname! <br/>";
+
 }
 
-echo "</select>";
+
+//function call
+familyName("Amit","Sonale");
+
+familyName("Pratham", "Raikar");
+
+
+
+
+
 
 
 
