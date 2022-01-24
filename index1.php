@@ -96,15 +96,23 @@
 //     $x++;
 // }
 
-$x = 1;
+// $x = 1;
 
-do{
+// do{
 
-    echo "The number is: $x \n";
-    $x++;
+//     echo "The number is: $x \n";
+//     $x++;
 
-}while($x <= 5);
+// }while($x <= 5);
 
+$colors = array("red","green","blue","yellow");
+
+foreach( $colors as $single_Value_Holder)
+{
+    // echo "$single_Value_Holder <br>  ";
+    
+    echo "<font color= $single_Value_Holder > $single_Value_Holder</font> <br> ";
+}
 
 
 
