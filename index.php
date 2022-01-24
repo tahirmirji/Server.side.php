@@ -18,9 +18,10 @@ function add( $a,$c)
 {
    $b=10; 
   
+echo "Welcome  to PHP";
 
 
-   echo " $number1 , $b , $a, $c ";
+   // echo " $number1 , $b , $a, $c ";
 
 
 }
@@ -33,3 +34,5 @@ add(100,200);
 */
 
 ?>
+<br/>
+<a href="index1.php" >index1.php</a>
