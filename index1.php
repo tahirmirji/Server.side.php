@@ -105,14 +105,21 @@
 
 // }while($x <= 5);
 
-$colors = array("red","green","blue","yellow");
+$colors = array("red","green","blue","yellow","gray");
+
+
+echo "<select name='cars' id='cars'>";
+
 
 foreach( $colors as $single_Value_Holder)
 {
     // echo "$single_Value_Holder <br>  ";
+    echo "<option value='$single_Value_Holder'>$single_Value_Holder</option>";
     
-    echo "<font color= $single_Value_Holder > $single_Value_Holder</font> <br> ";
+    // echo "<font color= $single_Value_Holder > $single_Value_Holder</font><br>";
 }
+
+echo "</select>";
 
 
 
