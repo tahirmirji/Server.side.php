@@ -10,18 +10,18 @@
 // Answer = 3
 
 
-    // $variable = "name";
-    // $literally = "My $variable will not print";
-    // print($literally); print("<br/>");
+//     $variable = "name";
+//     $literally = "My $variable will not print";
+//     print($literally); print("<br/>");
 
-    // $literally = "My $variable will print";
-    // print($literally); print("<br/>");
+//     $literally = "My $variable will print";
+//     print($literally); print("<br/>");
 
-    // $literally = 10;
-    // print($literally); print("<br/>");
+//     $literally = 10;
+//     print($literally); print("<br/>");
 
-    // $literally = 3.142;
-    // print($literally); print("<br/>");
+//     $literally = 3.142;
+//     print($literally); print("<br/>");
 
 //     function Afunction(&$myvar)
 //     {
@@ -121,20 +121,46 @@
 
 // echo "</select>";
 
+// //function definition
+// function familyName($fname,$lname)
+// {
 
-//function definition
-function familyName($fname,$lname)
-{
+//     echo "Hey Hi, $fname $lname! <br/>";
 
-    echo "Hey Hi, $fname $lname! <br/>";
+// }
 
-}
+// //function call
+// familyName("Amit","Sonale");
+
+// familyName("Pratham", "Raikar");
 
 
-//function call
-familyName("Amit","Sonale");
+echo str_word_count("Hello there, how are you?");
 
-familyName("Pratham", "Raikar");
+echo "<br/>";
+
+echo strcmp("computer","Computer");
+//C -67   c-97
+//=97-67 
+//=1
+
+echo "<br/>";
+
+echo stripos("Hello there, how are you?","");
+
+echo "<br/>";
+
+echo strlen("Hello");
+
+echo "<br/>";
+
+echo strtoupper("hello world to upper()");
+
+echo "<br/>";
+
+echo strtolower("HELLO WORLD to lower()");
+
+echo "<br/>";
 
 
 
