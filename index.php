@@ -36,3 +36,4 @@ add(100,200);
 ?>
 <br/>
 <a href="index1.php" >index1.php</a>
+<a href="php_mysql_demo.php" >php_mysql_demo.php</a>
