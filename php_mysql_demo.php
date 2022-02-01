@@ -8,16 +8,11 @@ $db_pass = '';
 
 $connection = new mysqli($db_host,$db_user,$db_pass);
 
-if($connection ->connect_errno)
+if($connection ->connect_error)
 {
-    echo "Connection error";
-    exit();
+    die("Hey guys we have a problem, Connection Error".$connection->connect_error);
 }
 
-echo "MYSQL Database Connected Successfully";
-
-
-
-
+    echo "MYSQL Database Connected Successfully";
 
 ?>
