@@ -55,8 +55,9 @@ function fetch_data($connection)
     $result = mysqli_query($connection, $query);
 
     //here if will check if the $result is holding some rows or not, if rows are greater than zero it will be true else false.
-    if (mysqli_num_rows($result) > 0) 
+    if (($num=mysqli_num_rows($result)) > 0) 
     {
+        echo $num." Employees Found";
 
         //It will retrive records from the result one row by one row and store in $row.
         $row = mysqli_fetch_all($result, MYSQLI_NUM);
@@ -65,7 +66,12 @@ function fetch_data($connection)
        foreach($row as $res)
        {
            //Display each data using index of array/row 
-           echo "<p> Emp Id: $res[0] <br/> Emp Name: $res[1] <br/> Emp Email: $res[2] <br/> Emp Salary: $res[3]  <br/> </p>";
+           echo "<p>";
+           echo "Emp Id: $res[0] <br/>";
+           echo "Emp Name: $res[1] <br/> ";
+           echo "Emp Email: $res[2] <br/> ";
+           echo "Emp Salary: $res[3]  <br/>";
+           echo "</p>";
            
            // display horizontal line
            echo "<hr>";

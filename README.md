@@ -1,6 +1,6 @@
 ﻿# Server Side Programming
 
-1.  Do clone or download the code repository
+1.  Do clone or download the code repository in your system
 2.  Create a database called: wiz
 3.  create table called employee:
 
